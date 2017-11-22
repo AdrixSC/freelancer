@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat" rel="stylesheet">
   <title>Freelancer</title>
 </head>
@@ -27,12 +27,15 @@
     <div>
       <img src="assets\images\profile.png">
       <h1>START BOOTSTRAP</h1>
+      <!--<hr class="fa fa-star">-->
+      <i id="star" class="fa fa-star" aria-hidden="true"></i>
       <h2>Web Developer - Graphic Artist - User Experience Designer</h2>
     </div>
   </section>
 
   <section id="portafolio" class="font-lato">
     <h1>PORTFOLIO</h1>
+    <i class="fa fa-star" aria-hidden="true"></i>
     <article>
       <img src="assets\images\portfolio\cabin.png">
       <img src="assets\images\portfolio\cake.png">
@@ -47,6 +50,7 @@
 
   <section id="about" class="font-lato">
     <h1>ABOUT</h1>
+    <i class="fa fa-star" aria-hidden="true"></i>
     <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
     <div class="fa fa-download" aria-hidden="true">Download Theme</div>
@@ -54,22 +58,27 @@
 
   <section id="contact" class="font-lato">
     <h1>CONTACT ME</h1>
-    <form action="" method="" class="style-form">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <form class="style-form">
       <div>
-        <label for="name">Name</label>
-        <input type="text" id="name" />
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Name" />
+        <hr>
       </div>
       <div>
-        <label for="mail">Email Adress</label>
-        <input type="email" id="mail" />
+        <label for="mail"></label>
+        <input type="email" id="mail" placeholder="Email Adress" />
+        <hr>
       </div>
       <div>
-        <label for="phone">Phone Number</label>
-        <input type="number" id="phone" />
+        <label for="phone"></label>
+        <input type="text" id="phone" placeholder="Phone Number" />
+        <hr>
       </div>
       <div>
-        <label for="msg">Message:</label>
-        <input type="text" id="msg" />
+        <label for="msg"></label>
+        <input type="text" id="msg" placeholder="Message"/>
+        <hr>
       </div>
 
       <div class="button">
@@ -88,9 +97,21 @@
 
     <div>
       <h2>AROUND THE WEB</h2>
-      <i class="fa fa-facebook" aria-hidden="true"></i>
-      <i class="fa fa-google-plus" aria-hidden="true"></i>
-      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <div>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa fa-google-plus" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa fa-dribbble" aria-hidden="true"></i>
+      </div>
     </div>
 
     <div>

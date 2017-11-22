@@ -78,3 +78,17 @@ Este reto será evaluado sobre lo siguiente:
 * Indentación
 * Archivo `README.md` actualizado y correctamente redactado
 * Uso de comentarios para hacer tu código más legible
+
+### Mi código
+
+HTML
+
+1. Hacer un boceto papel, para visualizar las secciones que se necesitan.
+2. Darle estructura a la página, sección por sección.
+3. Enlazar el archivo css y las fuentes a necesitar.
+3. Darle un id a cada sección, para poder darle estilo.
+
+CSS
+
+1. Darle estilo a cada id de las secciones
+2. Darle sintaxis e identación.
