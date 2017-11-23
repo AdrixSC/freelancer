@@ -92,3 +92,5 @@ CSS
 
 1. Darle estilo a cada id de las secciones
 2. Darle sintaxis e identación.
+
+NOTA: Visualizar la página en el porcentaje que sea necesario, ya que la resolución de la pantalla en la que lo visualicé mientras lo trabajé es diferente al de la otra computadora dónde continué trabajando. Gracias!
