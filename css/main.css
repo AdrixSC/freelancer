@@ -52,42 +52,26 @@ button:hover {
   width: 100%;
 }
 
-/*#star {
-  border-top: solid 5px;
-}*/
-
- .st:before {
-  background-color: white;
-  content: "";
-  display: inline-block;
-  height: 20px;
-  margin-top: 20px;
-  width: 100px;
-}
-
-.st:after {
-  background-color: white;
-  content: "";
-  height: 10px;
-  margin-top: 20px;
-  width: 200px;
+#star {
+  font-size: 30px;
 }
 
 #star-bootstrap {
   background-color: #18bc9c;
   clear: both;
   color: white;
-  height: 65S0px;
+  height: 550px;
   padding: 100px;
   text-align: center;
 }
 
 #star-bootstrap > div {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 #star-bootstrap > div > h1 {
   font-size: 80px;
+  margin: 20px 0 30px 0;
 }
 
 #portafolio {
@@ -97,6 +81,7 @@ button:hover {
 
 #portafolio > h1 {
   font-size: 60px;
+  margin: 40px 0 30px 0;
 }
 
 #portafolio > article > img {
@@ -105,10 +90,14 @@ button:hover {
   width: 400px;
 }
 
+#portafolio > .st {
+  margin-bottom: 50px;
+}
+
 #about {
   background-color: #18bc9c;
   color: white;
-  height: 500px;
+  height: 550px;
   text-align: center;
 }
 
@@ -116,6 +105,7 @@ button:hover {
   font-size: 60px;
   padding: 30px;
   text-align: center;
+  margin: 0 0 20px 0;
 }
 
 #about > p {
@@ -127,11 +117,11 @@ button:hover {
   width: 300px;
 }
 
-#about > div {
+#about > article {
   border: 1px solid white;
   border-radius: 5px;
   height: 40px;
-  margin-left: 730px;
+  margin-left: 670px;
   margin-top: 40px;
   text-align: center;
   width: 180px;
@@ -141,6 +131,15 @@ button:hover {
   margin-top: 12px;
 }
 
+#about > article > span {
+  padding-top: 15px;
+}
+
+#about > .st {
+  border: 0px;
+  margin-bottom: 50px;
+}
+
 #contact {
   background-color: white;
   text-align: center;
@@ -148,10 +147,16 @@ button:hover {
 
 #contact > h1 {
   font-size: 60px;
+  padding: 30px;
+  text-align: center;
 }
 
 #contact > .style-form > div {
   margin-top: 10px;
+}
+
+#contact > .st {
+  margin-bottom: 50px;
 }
 
 #footer {
@@ -171,7 +176,6 @@ button:hover {
   line-height: 10px;
   padding-top: 80px;
   padding-left: 95px;
-  text-align: center;
   vertical-align: middle;
 }
 
@@ -232,4 +236,18 @@ button:hover {
 
 .green { /*estilo para palabras particulares, como las que se encuentran dentro de la etiqueta span en el footer*/
   color: #18bc9c;
+}
+
+.hr {
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background: white;
+}
+
+.hrb {
+  display: inline-block;
+  width: 100px;
+  height: 5px;
+  background: black;
 }
