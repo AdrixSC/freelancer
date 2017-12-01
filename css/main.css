@@ -1,253 +1,310 @@
 body {
-  margin: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form {
-  text-align: left;
-  margin-left: 350px;
+    text-align: left;
+    margin-left: 350px;
 }
 
-form > div > label  {
-  color: gray;
-  line-height: 50px;
+form>div>label {
+    color: gray;
+    line-height: 50px;
 }
 
-form > div > hr  {
-  margin-left: 0px;
-  width: 700px;
+form>div>hr {
+    margin-left: 0px;
+    width: 700px;
 }
 
 input {
-  background: none;
-  border: none;
-  color: gray;
-  font-size: 20px;
-  margin: 0 auto;
-  outline:0px;
-  width: 200px;
+    background: none;
+    border: none;
+    color: gray;
+    font-size: 20px;
+    margin: 0 auto;
+    outline: 0px;
+    width: 200px;
 }
 
 button {
-  background: #18bc9c;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  margin-top: 80px;
-  padding: 15px;
-  text-align: left;
+    background: #18bc9c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 80px;
+    padding: 15px;
+    text-align: left;
 }
 
 button:hover {
-  background-color: #0b9378;
+    background-color: #0b9378;
 }
 
 #header {
-  background-color: #2c3e50;
-  color: white;
-  height: 100px;
-  margin: 0px;
-  padding: 0px;
-  position: fixed;
-  width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
 }
 
 #star {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 #star-bootstrap {
-  background-color: #18bc9c;
-  clear: both;
-  color: white;
-  height: 550px;
-  padding: 100px;
-  text-align: center;
+    background-color: #18bc9c;
+    clear: both;
+    color: white;
+    height: 550px;
+    padding: 100px;
+    text-align: center;
 }
 
-#star-bootstrap > div {
-  margin-top: 90px;
+#star-bootstrap>div {
+    margin-top: 90px;
 }
 
-#star-bootstrap > div > h1 {
-  font-size: 80px;
-  margin: 20px 0 30px 0;
+#star-bootstrap>div>h1 {
+    font-size: 80px;
+    margin: 20px 0 30px 0;
 }
 
 #portafolio {
-  background-color: white;
-  text-align: center;
+    background-color: white;
+    text-align: center;
 }
 
-#portafolio > h1 {
-  font-size: 60px;
-  margin: 40px 0 30px 0;
+#portafolio>h1 {
+    font-size: 60px;
+    margin: 40px 0 30px 0;
 }
 
-#portafolio > article > img {
-  display: inline-block;
-  margin: 0px 30px 30px 0px;
-  width: 400px;
+#portafolio>article>img {
+    display: inline-block;
+    margin: 0px 30px 30px 0px;
+    width: 400px;
 }
 
-#portafolio > .st {
-  margin-bottom: 50px;
+#portafolio>article>img:hover {
+    cursor: pointer;
+    filter: opacity(50%);
+}
+
+#portafolio>.st {
+    margin-bottom: 50px;
 }
 
 #about {
-  background-color: #18bc9c;
-  color: white;
-  height: 550px;
-  text-align: center;
+    background-color: #18bc9c;
+    color: white;
+    height: 550px;
+    text-align: center;
 }
 
-#about > h1 {
-  font-size: 60px;
-  padding: 30px;
-  text-align: center;
-  margin: 0 0 20px 0;
+#about>h1 {
+    font-size: 60px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 0 20px 0;
 }
 
-#about > p {
-  display: inline-block;
-  font-size: 18px;
-  margin-left: 60px;
-  text-align: left;
-  vertical-align: middle;
-  width: 300px;
+#about>p {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 60px;
+    text-align: left;
+    vertical-align: middle;
+    width: 300px;
 }
 
-#about > article {
-  border: 1px solid white;
-  border-radius: 5px;
-  height: 40px;
-  margin: 0 auto;
-  margin-top: 20px;
-  text-align: center;
-  width: 180px;
+#about>article {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 180px;
 }
 
-#about > div > span {
-  margin-top: 12px;
+#about>div>span {
+    margin-top: 12px;
 }
 
-#about > article > span {
-  padding-top: 15px;
+#about>article>span {
+    padding-top: 15px;
 }
 
-#about > .st {
-  border: 0px;
-  margin-bottom: 50px;
+#about>.st {
+    border: 0px;
+    margin-bottom: 50px;
 }
 
 #contact {
-  background-color: white;
-  text-align: center;
+    background-color: white;
+    text-align: center;
 }
 
-#contact > h1 {
-  font-size: 60px;
-  padding: 30px;
-  text-align: center;
+#contact>h1 {
+    font-size: 60px;
+    padding: 30px;
+    text-align: center;
 }
 
-#contact > .style-form > div {
-  margin-top: 10px;
+#contact>.style-form>div {
+    margin-top: 10px;
 }
 
-#contact > .st {
-  margin-bottom: 50px;
+#contact>.st {
+    margin-bottom: 50px;
 }
 
 #footer {
-  background-color: #2c3e50;
-  color: white;
-  height: 370px;
-  margin-top: 50px;
+    background-color: #2c3e50;
+    color: white;
+    height: 370px;
+    margin-top: 50px;
 }
 
-#footer > div {
-  text-align: center;
+#footer>div {
+    text-align: center;
 }
 
-#footer > div > article {
-  color: white;
-  display: inline-block;
-  line-height: 10px;
-  padding-top: 80px;
-  padding-left: 95px;
-  vertical-align: middle;
+#footer>div>article {
+    color: white;
+    display: inline-block;
+    line-height: 10px;
+    padding-top: 80px;
+    padding-left: 95px;
+    vertical-align: middle;
 }
 
-#footer > div > p {
-  margin-top: 60px;
-  text-align: center;
+#footer>div>p {
+    margin-top: 60px;
+    text-align: center;
 }
 
-#footer > div > article > div {
-  border-radius: 50%;
-  border: 1px solid white;
-  display: inline-block;
-  height: 20px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-  padding: 15px;
-  width: 20px;
+#footer>div>article>div {
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    height: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 20px;
 }
 
-#footer > div > article > div:hover {
-  background-color: white;
-  border-radius: 50%;
-  border: 1px solid white;
-  color: black;
-  display: inline-block;
-  height: 20px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-  padding: 15px;
-  width: 20px;
+#footer>div>article>div:hover {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: black;
+    display: inline-block;
+    height: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 20px;
 }
 
 .title {
-  float: left;
-  margin-left: 200px;
-  margin-top: 20px;
-  width: 50%;
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 50%;
 }
 
 .menu {
-  float: left;
-  margin-top: 20px;
-  width: 30%;
+    float: left;
+    margin-top: 20px;
+    width: 30%;
 }
 
-.menu > h3 {
-  display: inline-block;
-  padding-right: 30px;
+.menu>h3 {
+    display: inline-block;
+    padding-right: 30px;
 }
 
 .font-montserrat {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .font-lato {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
-.green { /*estilo para palabras particulares, como las que se encuentran dentro de la etiqueta span en el footer*/
-  color: #18bc9c;
+.green {
+    /*estilo para palabras particulares, como las que se encuentran dentro de la etiqueta span en el footer*/
+    color: #18bc9c;
 }
 
 .hr {
-  display: inline-block;
-  width: 100px;
-  height: 5px;
-  background: white;
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background: white;
 }
 
 .hrb {
-  display: inline-block;
-  width: 100px;
-  height: 5px;
-  background: black;
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    background: black;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 90%;
+    overflow: auto;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.modal-window {
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 200px;
+}
+
+.x {
+    color: #18bc9c;
+    font-size: 60px;
+    margin-left: 1100px;
+}
+
+.x:hover {
+    cursor: pointer;
+}
+
+#modal>h1 {
+    font-size: 60px;
+    margin: 40px 0 30px 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#modal>.st {
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+#modal>p {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
 }
